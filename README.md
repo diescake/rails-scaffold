@@ -23,7 +23,8 @@ $ brew services start postgresql@10
 Launch the rails server.
 
 ```shell
-$ bundle exec rails -s
+# $ bundle exec rails s
+$ bin/rails -s
 ```
 
 ## Stop
