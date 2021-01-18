@@ -14,18 +14,20 @@ $ bundle install
 
 ## Run
 
-Launch the database server.
+1. Launch the database server.
 
 ```shell
 $ brew services start postgresql@10
 ```
 
-Launch the rails server.
+2. Launch the rails server.
 
 ```shell
 # $ bundle exec rails s
 $ bin/rails -s
 ```
+
+3. Open `http://localhost:3000` on your browser.
 
 ## Stop
 
